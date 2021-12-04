@@ -1,7 +1,7 @@
 .scrollable-members {
   display: flex;
   align-items: flex-start;
-  overflow-x: scroll;
+  flex-flow: row wrap;
   padding-bottom: 1rem; /* for scrollbar */
   -webkit-overflow-scrolling: touch;
   scroll-snap-type: x mandatory;
@@ -22,8 +22,9 @@
 .scrollable-member__link {
   display: block;
   flex-shrink: 0;
-  width: 90px;
+  width: 100px;
   margin-right: 23px;
+  margin-bottom: 32px;
   margin-left: -5px;
   text-align: center;
   line-height: 1.5;

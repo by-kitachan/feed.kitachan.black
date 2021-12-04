@@ -28,6 +28,7 @@ $side-padding-sm: 1rem;
   flex: 1;
   display: flex;
   flex-flow: column;
+  justify-content: space-between;
   @include mq(sm) {
     padding: 1rem $side-padding-sm 1.2rem;
   }
@@ -43,7 +44,12 @@ $side-padding-sm: 1rem;
 }
 .post-link__title {
   font-size: 1.1rem;
-  flex: 1;
+  flex-grow: 1;
+}
+
+.post-link__image {
+  margin-top: 0.9rem;
+  object-fit: contain;
 }
 
 .post-link__site {

@@ -10,6 +10,8 @@ export type Member = {
   githubUsername?: string;
   twitterUsername?: string;
   websiteUrl?: string;
+  includePageUrls: { url: string; publishedAt: string }[];
+  includeWordRegexes?: string;
 };
 
 export type PostItem = {
@@ -20,4 +22,6 @@ export type PostItem = {
   contentSnippet?: string;
   isoDate?: string;
   dateMiliSeconds: number;
+  ogImageUrl?: string;
+  content?: string;
 };

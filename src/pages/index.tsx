@@ -50,7 +50,7 @@ const Page: NextPage = () => {
         </ContentWrapper>
       </section>
 
-      <section className="home-posts">
+      <section className="home-posts" style={{ marginTop: -32 }}>
         <ContentWrapper>
           <div className="home-section-title-container">
             <h2 className="home-section-title">Articles</h2>

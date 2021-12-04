@@ -10,7 +10,7 @@ export const SiteHeader: React.FC = () => (
         <Link href="/" passHref>
           <a className="site-header__logo-link">
             <img
-              src="/logo.svg"
+              src="/logo.png"
               alt={config.siteMeta.title}
               className="site-header__logo-img"
             />
@@ -27,7 +27,12 @@ export const SiteHeader: React.FC = () => (
               );
             }
             return (
-              <a key={key} href={link.href} className="site-header__link">
+              <a
+                key={key}
+                href={link.href}
+                className="site-header__link"
+                target="_blank"
+              >
                 {link.title}
               </a>
             );
