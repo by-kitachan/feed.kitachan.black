@@ -38,9 +38,64 @@ export const members: Member[] = [
         publishedAt: "2021/07/20",
       },
       {
+        // 得意練習に3人以上が集まる場合の確率検証
+        url: "https://kitachan.black/5eb171a114c94688b68d1a6f6d05b891",
+        publishedAt: "2021/05/13",
+      },
+      {
+        // シン・コンジョウイクセイ
+        url: "https://kitachan.black/972778c6aed94e3fbbcd776b8e01577b",
+        publishedAt: "2021/04/15",
+      },
+      {
+        // ウマ娘サークル「きたちゃんぶらっく」を創設しました
+        url: "https://kitachan.black/31c28ef8461c4f2a9121cc49a6081226",
+        publishedAt: "2021/04/30",
+      },
+      {
+        // 「きたちゃんぶらっく」のサークルページが完成しました
+        url: "https://kitachan.black/d414add33f2942b8802306f5580c7beb",
+        publishedAt: "2021/06/02",
+      },
+      {
+        // 「最強の因子を目指すためのキャッチアップ会」（2021/06/11）
+        url: "https://kitachan.black/056d4552352d4b9992d99a78bbb13b55",
+        publishedAt: "2021/06/11",
+      },
+      {
         // 【10月】『きたちゃんぶらっく』活動報告
         url: "https://kitachan.black/2d4e257f9a0c419db676915dceef19e6",
         publishedAt: "2021/11/05",
+      },
+      {
+        // 【9月】『きたちゃんぶらっく』活動報告
+        url: "https://kitachan.black/647846df6afa4b739d25c1572fc75dca",
+        publishedAt: "2021/10/03",
+      },
+      {
+        // 【8月】『きたちゃんぶらっく』活動報告
+        url: "https://kitachan.black/d976ffc153b1441cbb9e4375f7bb0b3f",
+        publishedAt: "2021/09/12",
+      },
+      {
+        // 【7月】『きたちゃんぶらっく』活動報告
+        url: "https://kitachan.black/2b91579354844ec28e19560442545555",
+        publishedAt: "2021/08/02",
+      },
+      {
+        // 【6月】『きたちゃんぶらっく』活動報告
+        url: "https://kitachan.black/e3b7f02d593341b688661eec2e0f281d",
+        publishedAt: "2021/07/01",
+      },
+      {
+        // 【5月】『きたちゃんぶらっく』活動報告
+        url: "https://kitachan.black/3dcaf438c1e44ad8b15f0978313ac8c5",
+        publishedAt: "2021/06/02",
+      },
+      {
+        // 【4月】『きたちゃんぶらっく』活動報告
+        url: "https://kitachan.black/cf203cc4f1e94ba59035f0d8f0ad71ea",
+        publishedAt: "2021/05/05",
       },
     ],
   },
