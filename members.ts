@@ -12,6 +12,8 @@ export const members: Member[] = [
     ],
     githubUsername: "by-kitachan",
     websiteUrl: "https://kitachan.black",
+    excludeUrlRegex:
+      "ba9561d9e27c421789bdbcdf6cef9d10|0c1bcd676dce42608a44aca3cfcf4fb7|4eee09df30d64c3abf1a2144a039f846|ea8922452dc245d4808295af3dc9322c|2d4e257f9a0c419db676915dceef19e6|694ae94f0a7c4e1ebeb34e265ba98ea4|f2a7313d8208484387a9b2bea7bac386|647846df6afa4b739d25c1572fc75dca",
     includePageUrls: [],
   },
   {
@@ -149,6 +151,11 @@ export const members: Member[] = [
         // ショータイムLv5考察まとめ
         url: "https://kitachan.black/4eee09df30d64c3abf1a2144a039f846",
         publishedAt: "2021/11/16",
+      },
+      {
+        // 非目標レース1着時のヒント取得率
+        url: "https://kitachan.black/ba9561d9e27c421789bdbcdf6cef9d10",
+        publishedAt: "2021/12/05",
       },
     ],
   },
