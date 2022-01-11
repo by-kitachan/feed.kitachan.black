@@ -212,6 +212,11 @@ export const members: Member[] = [
         url: "https://kitachan.black/ba9561d9e27c421789bdbcdf6cef9d10",
         publishedAt: "2021/12/05",
       },
+      {
+        // レーシングカーニバルのカーニバルボーナス因子について
+        url: "https://kitachan.black/24e4750139e8430a8cf72b610deb9cfe",
+        publishedAt: "2021/12/05",
+      },
     ],
   },
   {
